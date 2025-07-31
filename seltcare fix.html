@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karena Dirimu Penting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f1eb;
+  color: #3e2f1c;
+  line-height: 1.7;
+}
+
+header {
+  background-color: #d4b59e;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  animation: fadeInDown 1.2s ease forwards;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+.tab-button {
+  padding: 0.7rem 1.5rem;
+  background-color: #e8d9c1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #c5a88f;
+  transform: scale(1.05);
+}
+
+.tab-content {
+  display: none;
+  padding: 2rem;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+  </style>
+</head><body>
+  <header>
+    <h1>Karena Dirimu Penting</h1>
+  </header>  <div class="tabs">
+    <button class="tab-button" onclick="openTab('rambut')">Perawatan Rambut</button>
+    <button class="tab-button" onclick="openTab('kulit')">Perawatan Kulit Badan</button>
+    <button class="tab-button" onclick="openTab('kuku')">Perawatan Kuku</button>
+    <button class="tab-button" onclick="openTab('wajah')">Perawatan Wajah</button>
+  </div>  <div id="rambut" class="tab-content active">
+    <section>
+      <h2>Perawatan Rambut</h2>
+      <p>Perawatan rambut adalah proses menjaga kesehatan rambut dan kulit kepala agar tetap bersih, kuat, dan berkilau. Ini mencakup kebiasaan seperti keramas rutin, penggunaan kondisioner, masker rambut, serta menjaga pola makan yang sehat agar nutrisi rambut tetap terjaga.</p>
+      <p><strong>Fakta dan Mitos:</strong> Banyak orang percaya bahwa mencabut uban bisa menyebabkan uban bertambah, padahal itu mitos. Uban terjadi karena kurangnya melanin dan tidak menyebar karena dicabut. Fakta lainnya, penggunaan minyak rambut secara rutin bisa membantu menutrisi akar rambut dan mencegah kerontokan.</p>
+      <p><strong>Tanda Tidak Normal:</strong> Rambut yang rontok berlebihan, gatal ekstrem di kulit kepala, ketombe parah, atau rambut mudah patah bisa menjadi tanda adanya masalah kesehatan rambut atau kulit kepala yang perlu diperiksa.</p>
+      <p><strong>Alat dan Cara Perawatan:</strong> Sisir bergigi jarang, sampo sesuai jenis rambut, kondisioner, masker atau hair tonic. Cara merawatnya: keramas 2–3 kali seminggu, hindari alat panas berlebih, dan konsumsi makanan kaya vitamin B dan E.</p>
+      <p><strong>Tips:</strong> Gunakan handuk berbahan halus, hindari menyisir saat rambut masih sangat basah, dan beri minyak alami seperti argan oil atau minyak kelapa seminggu sekali.</p>
+    </section>
+  </div>  <div id="kulit" class="tab-content">
+    <section>
+      <h2>Perawatan Kulit Badan</h2>
+      <p>Perawatan kulit badan bertujuan untuk menjaga kelembapan, elastisitas, dan kecerahan alami kulit tubuh. Perawatan ini mencakup mandi secara teratur, eksfoliasi, penggunaan body lotion atau body butter, serta perlindungan dari sinar UV dengan sunscreen.</p>
+      <p><strong>Fakta dan Mitos:</strong> Mitos umum menyebutkan bahwa mandi malam hari menyebabkan rematik, padahal tidak ada bukti ilmiah yang kuat mendukung hal ini. Fakta: kulit tetap bisa mengalami dehidrasi meski tidak merasa kering, karena itu tetap penting menggunakan pelembap setiap hari.</p>
+      <p><strong>Tanda Tidak Normal:</strong> Kulit sangat kering dan bersisik, gatal terus-menerus, ruam, atau luka yang tak kunjung sembuh adalah tanda bahwa kulit sedang bermasalah dan mungkin membutuhkan perhatian medis.</p>
+      <p><strong>Alat dan Cara Perawatan:</strong> Sabun berbahan lembut, scrub badan, pelembap, sunscreen. Cara: mandi dua kali sehari, eksfoliasi seminggu sekali, gunakan pelembap segera setelah mandi, dan gunakan sunscreen saat keluar rumah.</p>
+      <p><strong>Tips:</strong> Gunakan sabun tanpa alkohol, pilih lotion dengan kandungan aloe vera atau shea butter, dan minum cukup air setiap hari untuk menjaga hidrasi kulit dari dalam.</p>
+    </section>
+  </div>  <div id="kuku" class="tab-content">
+    <section>
+      <h2>Perawatan Kuku</h2>
+      <p>Kuku yang sehat mencerminkan kebersihan dan kondisi kesehatan seseorang. Perawatan kuku mencakup pemotongan rutin, menjaga kebersihannya, serta penggunaan krim atau minyak kutikula untuk menghindari kuku kering dan rapuh.</p>
+      <p><strong>Fakta dan Mitos:</strong> Mitos mengatakan kuku harus sering dikikir agar cepat panjang, padahal kuku tumbuh secara alami sesuai nutrisi dan kesehatan tubuh. Fakta: terlalu sering menggunakan cat kuku tanpa jeda bisa menyebabkan kuku menguning dan rapuh.</p>
+      <p><strong>Tanda Tidak Normal:</strong> Kuku mudah patah, berubah warna, menebal, atau tumbuh ke dalam adalah tanda adanya gangguan yang harus diwaspadai. Bisa jadi karena infeksi jamur atau kekurangan nutrisi tertentu.</p>
+      <p><strong>Alat dan Cara Perawatan:</strong> Gunting kuku bersih, kikir kuku, minyak kutikula, dan hand cream. Potong kuku secara teratur, jangan mengorek bagian bawah kuku dengan benda tajam, dan hindari menggigit kuku.</p>
+      <p><strong>Tips:</strong> Oleskan minyak zaitun atau minyak vitamin E ke kuku setiap malam, gunakan sarung tangan saat bersih-bersih, dan istirahatkan kuku dari cat atau gel secara berkala.</p>
+    </section>
+  </div>  <div id="wajah" class="tab-content">
+    <section>
+      <h2>Perawatan Wajah</h2>
+      <p>Perawatan wajah bertujuan untuk menjaga kebersihan, kelembapan, dan kesehatan kulit wajah. Rutinitas dasar meliputi pembersihan, toning, pelembap, dan perlindungan dari sinar UV. Perawatan tambahan seperti masker wajah dan serum juga bisa digunakan sesuai kebutuhan kulit.</p>
+      <p><strong>Fakta dan Mitos:</strong> Mitos bahwa wajah berminyak tidak perlu pelembap adalah keliru. Kulit berminyak tetap butuh pelembap agar tidak memproduksi minyak berlebih. Fakta lainnya, tidur cukup dan hidrasi sangat mempengaruhi kondisi kulit wajah.</p>
+      <p><strong>Tanda Tidak Normal:</strong> Muncul jerawat parah secara tiba-tiba, kulit memerah dan perih, atau pengelupasan berlebihan bisa jadi tanda reaksi alergi atau kondisi kulit seperti dermatitis yang perlu ditangani profesional.</p>
+      <p><strong>Alat dan Cara Perawatan:</strong> Facial wash, toner, serum, pelembap, sunscreen. Bersihkan wajah dua kali sehari, gunakan produk sesuai jenis kulit, jangan tidur dengan make-up, dan hindari memencet jerawat.</p>
+      <p><strong>Tips:</strong> Gunakan sheet mask seminggu sekali, tidur cukup, minum air putih minimal 2 liter sehari, dan rutin cuci sarung bantal.</p>
+    </section>
+  </div>  <script>
+    function openTab(tabId) {
+      const tabs = document.querySelectorAll('.tab-content');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script></body></html>
